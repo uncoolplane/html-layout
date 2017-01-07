@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+html {
+  box-sizing: border-box;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inhert;
+}
+
+body {
+  width: 70%;
+  margin: auto;
+}
+
+p {
+  padding: 1em;
+}
+
+header {
+  background-color: #D8D8D8;
+  height: 100px;
+  position: relative;
+}
+
+header #menu-bar {
+  width: 80px;
+  height: 80px;
+  background-color: #4A90E2;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+}
+
+.container-item {
+  height: 100px;
+}
+
+#first {
+  background-color: #4A90E2;
+}
+
+#second {
+  background-color: #50E3C2;
+}
+
+#third {
+  background-color: #B8E986;
+}
+
+#fourth {
+  background-color: #F8E71C;
+}
